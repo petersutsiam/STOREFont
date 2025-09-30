@@ -7,7 +7,6 @@ public class User {
 	Collection<Payment> payment;
 	Collection<Order> order;
 	Collection<AnalyticsReport> analyticsReport;
-	private int ID;
 	public string name;
 	public string address;
 	public int phone;
@@ -15,7 +14,6 @@ public class User {
 	public string country;
 	public string city;
 	public string email;
-	public int userID;
 
 	public void login() {
 		// TODO - implement User.login
