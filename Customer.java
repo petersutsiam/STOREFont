@@ -5,7 +5,7 @@ public class Customer extends User {
 		throw new UnsupportedOperationException();
 	}
 
-	public void Register() {
+	public void register() {
 		// TODO - implement Customer.Register
 		throw new UnsupportedOperationException();
 	}
