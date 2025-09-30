@@ -3,7 +3,6 @@ import java.util.*;
 public class Category {
 
 	Collection<Product> product;
-	private int ID;
 	private String name;
 
 	public void addCategory() {
