@@ -5,7 +5,6 @@ public class Promotion {
 	Store store;
 	Franchise franchise;
 	Collection<ProductPromotion> productPromotion;
-	private int ID;
 	private string description;
 	private string discountType;
 	private string discountValue;
