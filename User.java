@@ -3,7 +3,7 @@ import java.util.*;
 public class User {
 
 	Store store;
-	ShoppingCart shopping_Cart;
+	ShoppingCart shoppingCart;
 	Collection<Payment> payment;
 	Collection<Order> order;
 	Collection<AnalyticsReport> analyticsReport;
