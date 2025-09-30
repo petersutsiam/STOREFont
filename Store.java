@@ -7,7 +7,6 @@ public class Store {
 	Collection<Product> product;
 	Collection<Promotion> promotion;
 	Collection<AnalyticsReport> analyticsReport;
-	private int ID;
 	private string name;
 	private string location;
 	private int managerID;
