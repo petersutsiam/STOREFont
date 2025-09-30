@@ -6,7 +6,6 @@ public class AnalyticsReport {
 	Store store;
 	User user;
 	Collection<AnalyticsData> analyticsData;
-	private int ID;
 	private String name;
 	private String type;
 	private Timestamp generatedDate;
