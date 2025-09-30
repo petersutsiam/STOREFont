@@ -4,8 +4,7 @@ public class Order {
 
 	User userID2;
 	Collection<OrderItems> orderItems;
-	private int ID;
-	public Integer UserID;
+	public Integer userID;
 
 	public void showOrder() {
 		// TODO - implement Order.showOrder
