@@ -9,7 +9,6 @@ public class Product {
 	ShoppingCart shopping_Cart;
 	Collection<Stock> stock;
 	Collection<ProductPromotion> productPromotion;
-	private int ID;
 	public String name;
 	public string description;
 	public double price;
