@@ -2,9 +2,8 @@ public class OrderItems {
 
 	Order order;
 	Product product;
-	private int ID;
-	public int OrderID;
-	public int ProductID;
+	public int orderID;
+	public int productID;
 	public int quantity;
 
 	public void addItem() {
