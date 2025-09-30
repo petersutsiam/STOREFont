@@ -6,7 +6,6 @@ public class Franchise {
 	Collection<Product> Product;
 	Collection<Promotion> promotion;
 	Collection<AnalyticsReport> analyticsReport;
-	private int ID;
 	private string name;
 	private string hqLocation;
 
