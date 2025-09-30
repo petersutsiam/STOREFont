@@ -1,4 +1,4 @@
-public class Credit_Debit extends Payment {
+public class CreditDebit extends Payment {
 
 	private int cardNumber;
 	private date expirationDate;
