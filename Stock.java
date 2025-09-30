@@ -1,7 +1,6 @@
 public class Stock {
 
 	Product product;
-	private int ID;
 	public int avaliability;
 	public int recommendedLevel;
 	public int standardOrder;
