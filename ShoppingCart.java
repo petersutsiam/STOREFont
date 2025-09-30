@@ -4,7 +4,6 @@ public class ShoppingCart {
 
 	User user;
 	Collection<Product> product;
-	private int ID;
 
 	public void addOrder() {
 		// TODO - implement ShoppingCart.addOrder
