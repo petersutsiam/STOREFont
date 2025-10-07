@@ -1,6 +1,7 @@
+package com.store;
 public class Employee extends User {
 
-	private string role;
+	private String role;
 	private boolean permession;
 
 	public void isAdmin() {

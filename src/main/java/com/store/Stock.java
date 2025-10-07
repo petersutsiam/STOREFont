@@ -1,11 +1,11 @@
+package com.store;
 public class Stock {
-
 	Product product;
 	public int avaliability;
 	public int recommendedLevel;
 	public int standardOrder;
-	public string supplierName;
-	public string supplierEmail;
+	public String supplierName;
+	public String supplierEmail;
 
 	public void showStock() {
 		// TODO - implement Stock.showStock

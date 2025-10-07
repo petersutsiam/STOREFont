@@ -1,4 +1,11 @@
+package com.store;
+
 import java.util.*;
+import java.sql.Timestamp;
+import com.store.Franchise;
+import com.store.Store;
+import com.store.User;
+import com.store.AnalyticsData;
 
 public class AnalyticsReport {
 

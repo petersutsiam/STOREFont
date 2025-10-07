@@ -1,4 +1,11 @@
+
+package com.store;
+
 import java.util.*;
+import com.store.Store;
+import com.store.Product;
+import com.store.Promotion;
+import com.store.AnalyticsReport;
 
 public class Franchise {
 
@@ -6,8 +13,8 @@ public class Franchise {
 	Collection<Product> product;
 	Collection<Promotion> promotion;
 	Collection<AnalyticsReport> analyticsReport;
-	private string name;
-	private string hqLocation;
+	private String name;
+	private String hqLocation;
 
 	public void addStore() {
 		// TODO - implement Franchise.addStore

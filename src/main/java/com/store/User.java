@@ -1,4 +1,11 @@
+package com.store;
+
 import java.util.*;
+import com.store.Payment;
+import com.store.Order;
+import com.store.AnalyticsReport;
+import com.store.Store;
+import com.store.ShoppingCart;
 
 public class User {
 
@@ -7,13 +14,13 @@ public class User {
 	Collection<Payment> payment;
 	Collection<Order> order;
 	Collection<AnalyticsReport> analyticsReport;
-	public string name;
-	public string address;
+	public String name;
+	public String address;
 	public int phone;
 	public int postalCode;
-	public string country;
-	public string city;
-	public string email;
+	public String country;
+	public String city;
+	public String email;
 
 	public void login() {
 		// TODO - implement User.login

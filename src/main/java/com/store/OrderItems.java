@@ -1,5 +1,5 @@
+package com.store;
 public class OrderItems {
-
 	Order order;
 	Product product;
 	public int orderID;

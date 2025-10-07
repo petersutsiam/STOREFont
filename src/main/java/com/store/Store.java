@@ -1,4 +1,11 @@
+package com.store;
+
 import java.util.*;
+import com.store.Franchise;
+import com.store.User;
+import com.store.Product;
+import com.store.Promotion;
+import com.store.AnalyticsReport;
 
 public class Store {
 
@@ -7,8 +14,8 @@ public class Store {
 	Collection<Product> product;
 	Collection<Promotion> promotion;
 	Collection<AnalyticsReport> analyticsReport;
-	private string name;
-	private string location;
+	private String name;
+	private String location;
 	private int managerID;
 
 	public void addLocalProduct() {

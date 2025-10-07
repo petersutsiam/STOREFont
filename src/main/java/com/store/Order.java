@@ -1,4 +1,8 @@
+package com.store;
+
 import java.util.*;
+import com.store.User;
+import com.store.OrderItems;
 
 public class Order {
 

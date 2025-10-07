@@ -1,3 +1,6 @@
+package com.store;
+
+import com.store.User;
 import java.util.*;
 
 public class ShoppingCart {

@@ -4,3 +4,24 @@
  * This is a general purpose Gradle build.
  * Learn more about Gradle by exploring our Samples at https://docs.gradle.org/8.14.2/samples
  */
+
+ plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // JUnit 5
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0'
+
+    // Mockito for mocks
+    testImplementation 'org.mockito:mockito-core:5.5.0'
+}
+
+test {
+    useJUnitPlatform()
+}
+

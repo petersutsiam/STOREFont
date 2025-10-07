@@ -1,3 +1,4 @@
+package com.store;
 public class Customer extends User {
 
 	public void placeOrder() {
